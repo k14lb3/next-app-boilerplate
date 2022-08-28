@@ -27,7 +27,12 @@
     }
   },
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "jsxSingleQuote": true
+      }
+    ],
     "arrow-body-style": "off",
     "no-use-before-define": "off",
     "no-plusplus": "off",
