@@ -16,19 +16,19 @@ git init .
 Install the dependencies:
 
 ```
-yarn install
+pnpm install
 ```
 
 Run the development server:
 
 ```
-yarn dev
+pnpm dev
 ```
 
 Build for production:
 
 ```
-yarn build
+pnpm build
 ```
 
 (⌐■_■)
