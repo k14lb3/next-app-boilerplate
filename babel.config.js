@@ -10,7 +10,7 @@ export const plugins = [
       treeshakeCompensation: true,
       unstable_moduleResolution: {
         type: 'commonJS',
-        rootDir: dirname,
+        rootDir: import.meta.dirname,
       },
     },
   ],
